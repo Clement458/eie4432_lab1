@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>21088966d_Drink Ordering Form</title>
+        <link rel="stylesheet" href="styles/order.css">
+    </head>
+    <body>
+        <header>
+            <h1>Drink Ordering Form</h1>
+        </header>
+            <nav>
+                <ul>
+                    <li class="currentPage" a href="">Home</a></li>
+                    <li><a href="">Order</a></li>
+                    <li><a href="">Menu</a></ul></li>
+                </ul>
+            </nav>
+            <main>
+                <form action="#" method="POST">
+                    <div class="name-input">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="drink-select">
+                        <label for="drink">Drink:</label>
+                        <select id="drink" name="drink">
+                            <option value="Bubble Milktea">Bubble Milktea</option>
+                            <option value="Iced Latte">Iced Latte</option>
+                            <option value="Pineapple Juice">Pineapple Juice</option>
+                        </select>
+                    </div>
+                    <div class="size-select">
+                        <label for="size">Size:</label>
+                        <input type="radio" id="small" name="size" value="small">
+                        <label for="size">small</label>
+                        <input type="radio" id="medium" name="size" value="medium">
+                        <label for="size">medium</label>
+                        <input type="radio" id="large" name="size" value="large">
+                        <label for="size">large</label>
+
+                    </div>
+                    <div class="submission">
+                        <input type="submit" value="Place Order">
+                    </div>
+                </form>
+                <footer>
+                    <p>© 21088966d CheungKwanYui EIE4432 Lab 1 Project</p>
+                </footer>
+            </main>
+    </body>
+    
+</html>
